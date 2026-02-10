@@ -1,0 +1,34 @@
+{
+    "products": [
+        {
+            "id": "1001",
+            "productName": "product 1",
+            "description": "This is an example description for product",
+            "price": 1500
+        },
+        {
+            "id": "1002",
+            "productName": "product 2",
+            "description": "This is an example description for product",
+            "price": 1500
+        },
+        {
+            "id": "1003",
+            "productName": "product 3",
+            "description": "This is an example description for product",
+            "price": 1500
+        },
+        {
+            "id": "1004",
+            "productName": "product 4",
+            "description": "This is an example description for product",
+            "price": 1500
+        },
+        {
+            "id": "1005",
+            "productName": "product 5",
+            "description": "This is an example description for product",
+            "price": 1500
+        }
+    ]
+}
