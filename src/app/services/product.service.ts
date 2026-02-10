@@ -14,6 +14,10 @@ export class ProductService {
     return this.http.get(this.API_URL)
   }
 
+  getSingleProduct(id: string){
+    return this.http.get(`${this.API_URL}/${id}`)
+  }
+
   addProduct(newProduct: Product){
     return this.http.post(this.API_URL, newProduct)
   }
