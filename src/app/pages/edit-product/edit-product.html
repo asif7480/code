@@ -2,7 +2,7 @@
 
 <div class="container">
   <div class="col-md-6 mx-auto">
-    <form (ngSubmit)="handleSubmit()">
+    <form (ngSubmit)="handleSubmit(productObj.id!)">
       <div class="mb-3">
         <input type="text" name="productName" [(ngModel)]="productObj.productName" class="form-control" placeholder="Enter productName" />
       </div>

@@ -2,9 +2,9 @@
   "products": [
     {
       "id": "1002",
-      "productName": "product 2",
+      "productName": "product 2 example",
       "description": "This is an example description for product",
-      "price": 1500
+      "price": 1600
     },
     {
       "id": "1003",
