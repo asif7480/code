@@ -19,7 +19,7 @@ export class ProductService {
   }
 
   addProduct(newProduct: Product){
-    return this.http.post<Product>(this.API_URL, newProduct)
+    return this.http.post(this.API_URL, newProduct)
   }
 
   updateProduct(id: string, newProduct: Product){
